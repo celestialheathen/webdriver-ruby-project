@@ -1,4 +1,5 @@
 require "selenium-webdriver"
+require "chromedriver-helper"
 
 driver = Selenium::WebDriver.for :chrome
 driver.navigate.to "http://formy-project.herokuapp.com/scroll"
